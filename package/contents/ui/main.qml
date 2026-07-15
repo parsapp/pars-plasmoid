@@ -6,22 +6,39 @@ import org.kde.plasma.plasmoid
 PlasmoidItem {
     id: root
 
-    ListModel {
-        id: matchModel
-        ListElement { home: "Galatasaray"; away: "Fenerbahçe"; score: "2 - 1"; info: "Oynandı · 12 Tem" }
-        ListElement { home: "Beşiktaş"; away: "Trabzonspor"; score: "0 - 0"; info: "Oynandı · 13 Tem" }
-        ListElement { home: "Samsunspor"; away: "Göztepe"; score: "–"; info: "19 Tem 20:00" }
-        ListElement { home: "Kasımpaşa"; away: "Konyaspor"; score: "–"; info: "20 Tem 18:30" }
-        ListElement { home: "Rizespor"; away: "Antalyaspor"; score: "–"; info: "20 Tem 21:00" }
+    property string dataUrl: "https://raw.githubusercontent.com/parsapp/matchday-plasmoid/main/data/worldcup.json"
+    property string title: "Yükleniyor..."
+
+    ListModel { id: matchModel }
+
+    function refresh() {
+        const xhr = new XMLHttpRequest()
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState !== XMLHttpRequest.DONE) return
+            if (xhr.status !== 200) { root.title = "Veri alinamadi"; return }
+            try {
+                const data = JSON.parse(xhr.responseText)
+                root.title = "⚽ " + data.league
+                matchModel.clear()
+                for (const m of data.matches) {
+                    matchModel.append({ home: m.home, away: m.away, score: m.score, info: m.info })
+                }
+            } catch (e) { root.title = "Veri bozuk" }
+        }
+        xhr.open("GET", root.dataUrl)
+        xhr.send()
     }
+
+    Component.onCompleted: refresh()
+    Timer { interval: 1800000; running: true; repeat: true; onTriggered: root.refresh() }
 
     fullRepresentation: ColumnLayout {
         spacing: 8
         Layout.minimumWidth: 300
-        Layout.minimumHeight: 340
+        Layout.minimumHeight: 360
 
         PC3.Label {
-            text: "⚽ Süper Lig"
+            text: root.title
             font.bold: true
             Layout.alignment: Qt.AlignHCenter
         }
