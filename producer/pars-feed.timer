@@ -1,0 +1,13 @@
+[Unit]
+Description=Run the Pars feed producer every 10 minutes
+Documentation=https://github.com/parsapp/pars-plasmoid
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10min
+Persistent=true
+AccuracySec=30s
+Unit=pars-feed.service
+
+[Install]
+WantedBy=timers.target

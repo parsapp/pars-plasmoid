@@ -74,3 +74,22 @@ git add . && git commit -m "mesaj" && git push
 - VRAM kontrol: cat /sys/class/drm/card1/device/mem_info_vram_used
 - Site beyni artık Gemini'de; GPU tamamen serbest
 - Disk %85 dolu — büyük indirmelerde dikkat
+
+## Otomatik feed üreticisi (producer/)
+
+- `producer/update_feed.py`: TheSportsDB v1 (ücretsiz key `123`) — FIFA World Cup
+  (lig ID **4429**, sezon 2026) son sonuç + yaklaşan maçları çeker, `data/worldcup.json`'a
+  bizim şemayla yazar; içerik gerçekten değiştiyse otomatik `git commit + push`
+  ("Auto feed update <tarih saat>"). Hiç değişiklik yoksa hiçbir şey yapmaz.
+- Zamanlayıcı: systemd **--user** `pars-feed.timer` (10 dk'da bir) → `pars-feed.service`.
+  - Kur: `cp producer/pars-feed.{service,timer} ~/.config/systemd/user/ && systemctl --user daemon-reload && systemctl --user enable --now pars-feed.timer`
+  - Durum: `systemctl --user list-timers pars-feed.timer`
+  - Log: `journalctl --user -u pars-feed.service -f`
+  - Elle: `python3 producer/update_feed.py`
+- **NOT — gecikme:** Ücretsiz API ~10-15 dk gecikmeli olabilir. Canlı skorlar anlık
+  değildir; bu beklenen davranıştır, widget'ta "gerçek zamanlı" vaadi yok.
+- Sağlamlık: ağ/timeout/parse hatasında script çöker ve **eski JSON'a dokunmaz**
+  (atomik yazma: temp + rename, kısmi/bozuk çıktı yok). Push kimliği `gh` credential
+  helper üzerinden; systemd --user oturumunda keyring erişimi doğrulandı.
+- Takım adları TR sözlükten çevrilir (eşleşme yoksa İngilizce fallback). Saatler
+  UTC+3'e çevrilir. Knockout tur etiketleri API'nin `intRound` koduna göredir.

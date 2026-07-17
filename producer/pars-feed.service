@@ -1,0 +1,16 @@
+[Unit]
+Description=Pars feed producer — refresh worldcup.json from TheSportsDB
+Documentation=https://github.com/parsapp/pars-plasmoid
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/projeler/pars-plasmoid
+ExecStart=/usr/bin/python3 %h/projeler/pars-plasmoid/producer/update_feed.py
+# Keep gh/git credential helper reachable (gh stores the token in the keyring).
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Nice=10
+
+[Install]
+WantedBy=default.target
