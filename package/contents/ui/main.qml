@@ -6,7 +6,7 @@ import org.kde.plasma.plasmoid
 PlasmoidItem {
     id: root
 
-    property string dataUrl: "https://raw.githubusercontent.com/parsapp/matchday-plasmoid/main/data/worldcup.json"
+    property string dataUrl: "https://raw.githubusercontent.com/parsapp/pars-plasmoid/main/data/worldcup.json"
     property string title: "Yükleniyor..."
 
     ListModel { id: matchModel }

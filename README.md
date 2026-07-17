@@ -1,8 +1,8 @@
-# Matchday — football fixtures & results widget for KDE Plasma 6
+# Pars — football fixtures & results widget for KDE Plasma 6
 
 A minimal plasmoid that shows recent results and upcoming fixtures for one competition at a time. Currently tracking the **2026 FIFA World Cup**.
 
-![Matchday widget](screenshots/main.png)
+![Pars widget](screenshots/main.png)
 
 ## How it works
 
@@ -31,18 +31,18 @@ The feed currently lives in this repo and is served via GitHub raw (`data/worldc
 ## Install
 
 ```bash
-git clone https://github.com/parsapp/matchday-plasmoid
-kpackagetool6 --type Plasma/Applet --install matchday-plasmoid/package
+git clone https://github.com/parsapp/pars-plasmoid
+kpackagetool6 --type Plasma/Applet --install pars-plasmoid/package
 ```
 
-Then right-click your desktop or panel → *Add Widgets* → search for **Matchday**.
+Then right-click your desktop or panel → *Add Widgets* → search for **Pars**.
 
-To update an existing install: `kpackagetool6 --type Plasma/Applet --upgrade matchday-plasmoid/package`
+To update an existing install: `kpackagetool6 --type Plasma/Applet --upgrade pars-plasmoid/package`
 
 For development, run it standalone without installing:
 
 ```bash
-plasmoidviewer --applet matchday-plasmoid/package
+plasmoidviewer --applet pars-plasmoid/package
 ```
 
 ## Roadmap

@@ -2,11 +2,11 @@
     "KPlugin": {
         "Authors": [{ "Name": "Pars APP" }],
         "Category": "Utilities",
-        "Description": "Fixtures and results, one league at a time",
+        "Description": "Football fixtures and results on your desktop",
         "Icon": "games-highscores",
-        "Id": "com.parsapp.matchday",
-        "Name": "Matchday",
-        "Version": "0.1"
+        "Id": "com.parsapp.pars",
+        "Name": "Pars",
+        "Version": "0.2"
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API-Minimum-Version": "6.0"
