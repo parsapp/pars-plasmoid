@@ -1,116 +1,176 @@
 {
-  "league": "Süper Lig 2026-27",
+  "league": "Süper Lig 2026-27 + Avrupa",
   "updated": "2026-09-09",
-  "next": "BJK-ERZ · Cum 20:00",
+  "next": "ŞL · SPO-GS · Çar 22:00",
   "live": false,
   "matches": [
+    {
+      "home": "Sporting CP",
+      "away": "Galatasaray",
+      "score": "–",
+      "info": "ŞL · Çar 22:00",
+      "trHome": false,
+      "trAway": true
+    },
+    {
+      "home": "Fenerbahçe",
+      "away": "Roma",
+      "score": "–",
+      "info": "ŞL · Per 19:45",
+      "trHome": true,
+      "trAway": false
+    },
+    {
+      "home": "Beşiktaş",
+      "away": "Marseille",
+      "score": "–",
+      "info": "AL · Per 22:00",
+      "trHome": true,
+      "trAway": false
+    },
     {
       "home": "İstanbul Başakşehir",
       "away": "Galatasaray",
       "score": "2 - 3",
-      "info": "4. Hafta · 4 Eyl"
+      "info": "4. Hafta · 4 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Erzurumspor",
       "away": "Konyaspor",
       "score": "1 - 0",
-      "info": "4. Hafta · 5 Eyl"
+      "info": "4. Hafta · 5 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Fenerbahçe",
       "away": "Beşiktaş",
       "score": "1 - 2",
-      "info": "4. Hafta · 5 Eyl"
+      "info": "4. Hafta · 5 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Kasımpaşa",
       "away": "Amed",
       "score": "2 - 2",
-      "info": "4. Hafta · 6 Eyl"
+      "info": "4. Hafta · 6 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Çorum",
       "away": "Eyüpspor",
       "score": "3 - 0",
-      "info": "4. Hafta · 6 Eyl"
+      "info": "4. Hafta · 6 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Trabzonspor",
       "away": "Gençlerbirliği",
       "score": "5 - 0",
-      "info": "4. Hafta · 6 Eyl"
+      "info": "4. Hafta · 6 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Kocaelispor",
       "away": "Samsunspor",
       "score": "1 - 0",
-      "info": "4. Hafta · 6 Eyl"
+      "info": "4. Hafta · 6 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Göztepe",
       "away": "Gaziantep",
       "score": "2 - 4",
-      "info": "4. Hafta · 7 Eyl"
+      "info": "4. Hafta · 7 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Rizespor",
       "away": "Alanyaspor",
       "score": "0 - 1",
-      "info": "4. Hafta · 7 Eyl"
+      "info": "4. Hafta · 7 Eyl",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Beşiktaş",
       "away": "Erzurumspor",
       "score": "–",
-      "info": "5. Hafta · Cum 20:00"
+      "info": "5. Hafta · Cum 20:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Eyüpspor",
       "away": "Rizespor",
       "score": "–",
-      "info": "5. Hafta · Cmt 17:00"
+      "info": "5. Hafta · Cmt 17:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Samsunspor",
       "away": "Çorum",
       "score": "–",
-      "info": "5. Hafta · Cmt 17:00"
+      "info": "5. Hafta · Cmt 17:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Konyaspor",
       "away": "Trabzonspor",
       "score": "–",
-      "info": "5. Hafta · Cmt 20:00"
+      "info": "5. Hafta · Cmt 20:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Alanyaspor",
       "away": "Göztepe",
       "score": "–",
-      "info": "5. Hafta · Cmt 20:00"
+      "info": "5. Hafta · Cmt 20:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Gençlerbirliği",
       "away": "Kasımpaşa",
       "score": "–",
-      "info": "5. Hafta · Paz 17:00"
+      "info": "5. Hafta · Paz 17:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Galatasaray",
       "away": "Kocaelispor",
       "score": "–",
-      "info": "5. Hafta · Paz 20:00"
+      "info": "5. Hafta · Paz 20:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Amed",
       "away": "İstanbul Başakşehir",
       "score": "–",
-      "info": "5. Hafta · Paz 20:00"
+      "info": "5. Hafta · Paz 20:00",
+      "trHome": false,
+      "trAway": false
     },
     {
       "home": "Gaziantep",
       "away": "Fenerbahçe",
       "score": "–",
-      "info": "5. Hafta · Pzt 20:00"
+      "info": "5. Hafta · Pzt 20:00",
+      "trHome": false,
+      "trAway": false
     }
   ]
 }
