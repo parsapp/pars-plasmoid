@@ -1,7 +1,7 @@
 {
   "league": "Süper Lig 2026-27 + Avrupa",
   "updated": "2026-09-11",
-  "next": "BJK 2-0 ERZ · 79'",
+  "next": "BJK 3-0 ERZ · 83'",
   "live": true,
   "matches": [
     {
@@ -15,8 +15,8 @@
     {
       "home": "Beşiktaş",
       "away": "Erzurumspor",
-      "score": "2 - 0",
-      "info": "5. Hafta · 79' CANLI",
+      "score": "3 - 0",
+      "info": "5. Hafta · 83' CANLI",
       "live": true,
       "trHome": false,
       "trAway": false
