@@ -1,25 +1,9 @@
 {
   "league": "Süper Lig 2026-27 + Avrupa",
-  "updated": "2026-09-09",
-  "next": "ŞL · FB-ROM · Per 19:45",
+  "updated": "2026-09-11",
+  "next": "BJK-ERZ · Cum 20:00",
   "live": false,
   "matches": [
-    {
-      "home": "Sporting CP",
-      "away": "Galatasaray",
-      "score": "3 - 1",
-      "info": "ŞL · 9 Eyl",
-      "trHome": false,
-      "trAway": true
-    },
-    {
-      "home": "Fenerbahçe",
-      "away": "Roma",
-      "score": "–",
-      "info": "ŞL · Per 19:45",
-      "trHome": true,
-      "trAway": false
-    },
     {
       "home": "Beşiktaş",
       "away": "Marseille",
