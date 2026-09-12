@@ -1,7 +1,7 @@
 {
   "league": "Süper Lig 2026-27 + Avrupa",
   "updated": "2026-09-12",
-  "next": "KON 1-0 TS · 19'",
+  "next": "KON 1-0 TS · 25'",
   "live": true,
   "matches": [
     {
@@ -40,7 +40,7 @@
       "home": "Konyaspor",
       "away": "Trabzonspor",
       "score": "1 - 0",
-      "info": "5. Hafta · 19' CANLI",
+      "info": "5. Hafta · 25' CANLI",
       "live": true,
       "trHome": false,
       "trAway": false
@@ -49,7 +49,7 @@
       "home": "Alanyaspor",
       "away": "Göztepe",
       "score": "0 - 0",
-      "info": "5. Hafta · 19' CANLI",
+      "info": "5. Hafta · 24' CANLI",
       "live": true,
       "trHome": false,
       "trAway": false
