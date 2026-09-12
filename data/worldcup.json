@@ -1,8 +1,8 @@
 {
   "league": "Süper Lig 2026-27 + Avrupa",
   "updated": "2026-09-12",
-  "next": "EYÜ 0-2 RIZ · 90+5'",
-  "live": true,
+  "next": "KON-TS · Cmt 20:00",
+  "live": false,
   "matches": [
     {
       "home": "Beşiktaş",
@@ -24,8 +24,7 @@
       "home": "Eyüpspor",
       "away": "Rizespor",
       "score": "0 - 2",
-      "info": "5. Hafta · 90+5' CANLI",
-      "live": true,
+      "info": "5. Hafta · 12 Eyl",
       "trHome": false,
       "trAway": false
     },
@@ -33,8 +32,7 @@
       "home": "Samsunspor",
       "away": "Çorum",
       "score": "1 - 5",
-      "info": "5. Hafta · 90+3' CANLI",
-      "live": true,
+      "info": "5. Hafta · 12 Eyl",
       "trHome": false,
       "trAway": false
     },
