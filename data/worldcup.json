@@ -1,8 +1,8 @@
 {
   "league": "Süper Lig 2026-27 + Avrupa",
   "updated": "2026-09-13",
-  "next": "GB 0-0 KAS · 2'",
-  "live": true,
+  "next": "GAZ-FB · Pzt 20:00",
+  "live": false,
   "matches": [
     {
       "home": "Beşiktaş",
@@ -55,25 +55,24 @@
     {
       "home": "Gençlerbirliği",
       "away": "Kasımpaşa",
-      "score": "0 - 0",
-      "info": "5. Hafta · 2' CANLI",
-      "live": true,
+      "score": "1 - 2",
+      "info": "5. Hafta · 13 Eyl",
       "trHome": false,
       "trAway": false
     },
     {
       "home": "Galatasaray",
       "away": "Kocaelispor",
-      "score": "–",
-      "info": "5. Hafta · Paz 20:00",
+      "score": "1 - 0",
+      "info": "5. Hafta · 13 Eyl",
       "trHome": false,
       "trAway": false
     },
     {
       "home": "Amed",
       "away": "Başakşehir",
-      "score": "–",
-      "info": "5. Hafta · Paz 20:00",
+      "score": "5 - 0",
+      "info": "5. Hafta · 13 Eyl",
       "trHome": false,
       "trAway": false
     },
