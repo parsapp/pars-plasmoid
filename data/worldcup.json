@@ -1,8 +1,8 @@
 {
   "league": "Süper Lig 2026-27 + Avrupa",
-  "updated": "2026-09-12",
-  "next": "GB-KAS · Paz 17:00",
-  "live": false,
+  "updated": "2026-09-13",
+  "next": "GB 0-0 KAS · 2'",
+  "live": true,
   "matches": [
     {
       "home": "Beşiktaş",
@@ -55,8 +55,9 @@
     {
       "home": "Gençlerbirliği",
       "away": "Kasımpaşa",
-      "score": "–",
-      "info": "5. Hafta · Paz 17:00",
+      "score": "0 - 0",
+      "info": "5. Hafta · 2' CANLI",
+      "live": true,
       "trHome": false,
       "trAway": false
     },
