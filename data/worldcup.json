@@ -1,8 +1,8 @@
 {
   "league": "Süper Lig 2026-27 + Avrupa",
-  "updated": "2026-09-13",
-  "next": "GAZ-FB · Pzt 20:00",
-  "live": false,
+  "updated": "2026-09-14",
+  "next": "GAZ 0-0 FB · 3'",
+  "live": true,
   "matches": [
     {
       "home": "Beşiktaş",
@@ -79,8 +79,81 @@
     {
       "home": "Gaziantep",
       "away": "Fenerbahçe",
+      "score": "0 - 0",
+      "info": "5. Hafta · 3' CANLI",
+      "live": true,
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Kasımpaşa",
+      "away": "Konyaspor",
       "score": "–",
-      "info": "5. Hafta · Pzt 20:00",
+      "info": "6. Hafta · Cum 20:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Çorum",
+      "away": "Alanyaspor",
+      "score": "–",
+      "info": "6. Hafta · Cmt 17:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Kocaelispor",
+      "away": "Gaziantep",
+      "score": "–",
+      "info": "6. Hafta · Cmt 17:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Başakşehir",
+      "away": "Gençlerbirliği",
+      "score": "–",
+      "info": "6. Hafta · Cmt 20:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Trabzonspor",
+      "away": "Galatasaray",
+      "score": "–",
+      "info": "6. Hafta · Cmt 20:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Fenerbahçe",
+      "away": "Eyüpspor",
+      "score": "–",
+      "info": "6. Hafta · Paz 17:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Erzurumspor",
+      "away": "Samsunspor",
+      "score": "–",
+      "info": "6. Hafta · Paz 17:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Göztepe",
+      "away": "Rizespor",
+      "score": "–",
+      "info": "6. Hafta · Paz 20:00",
+      "trHome": false,
+      "trAway": false
+    },
+    {
+      "home": "Amed",
+      "away": "Beşiktaş",
+      "score": "–",
+      "info": "6. Hafta · Paz 20:00",
       "trHome": false,
       "trAway": false
     }
